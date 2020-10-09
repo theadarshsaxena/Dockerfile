@@ -1,5 +1,5 @@
 FROM alpine:edge
-
+LABEL maintainer "Prince Snehgal<prisnelove@gmail.com>"
 RUN apk --update --no-cache add python3 \
                                 py3-pip \
                                 curl-dev \
